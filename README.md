@@ -6,8 +6,11 @@ Estudiante:  Tomas Mejia
 Id:  000466315
 ---
 # Trabajo
+## Diagrama de Clases UML
+![image](https://github.com/user-attachments/assets/052cf8c3-24d2-45b7-a121-00e89e4fedbc)
 
-## 1. Refactorización del Código:
+
+## efactorización del Código:
 
 ### player.c
 ```c
@@ -287,7 +290,7 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 ```
-## 2.Implementación de Herencia y Reutilización:
+## Componentes
 - La relación entre Player, Circle y Entity se puede ver una herencia, hacinedo  que Player y Circle tengan los atributos y funciones de Entity
 - Métodos como entity_initialize, entity_update y entity_render se reutilizan en player.c y circle.c, aprovechando el código ya definido para múltiples tipos de entidades.
 - Los atributos de la clase base Entity están encapsulados dentro de la estructura. No son accedidos directamente desde fuera, sino mediante métodos específicos como entity_initialize, entity_update, y entity_render.
