@@ -20,6 +20,8 @@
 *.tmp
 
 # Ignorar archivos generados por Visual Studio
+/Refactoring/.vs/
+/Refactoring/x64/
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -115,4 +117,5 @@ x86/
 *.VC.VC.opendb
 *.VC.VC.opendb
 
-#Puedes incluir directorios adicionales - Consulta cómo hacerlo
+#Ignorar carpetas generadas por Visual Studio Code
+/.vscode/
