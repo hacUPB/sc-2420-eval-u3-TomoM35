@@ -10,7 +10,7 @@ Id:  000466315
 ![image](https://github.com/user-attachments/assets/052cf8c3-24d2-45b7-a121-00e89e4fedbc)
 
 
-## efactorización del Código:
+## Refactorización del Código:
 
 ### player.c
 ```c
